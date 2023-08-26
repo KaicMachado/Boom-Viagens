@@ -2,6 +2,7 @@
  margin: 0;
  padding: 0;
  font-family: Poppins;
+ list-style: none;
 }
 
 /* Nav */
@@ -91,6 +92,9 @@ header {
  .card:hover {
   scale: 1.1;
  }
+ .card-oferta:hover {
+  scale: 1.1;
+ }
 }
 /* Vantagens */
 
@@ -98,4 +102,94 @@ header {
  width: 17rem;
  height: 14rem;
  background: #fff;
+}
+
+/* cards-ofertas */
+
+.card-oferta {
+ width: 22rem;
+ height: 28.5rem;
+ transition: 0.3s;
+}
+
+.card-oferta-header {
+ background-image: url(assets/imgs/cards/card-oferta-1.jpeg);
+ background-position: center;
+ width: 100%;
+ height: 12.5rem;
+ border-radius: 4px;
+}
+
+.card-oferta span {
+ background-color: #fa5450;
+ padding: 0.5rem;
+ max-width: fit-content;
+ border-radius: 0px 8px 8px 0px;
+ color: #fff;
+}
+
+.tipo-pousada {
+ padding: 0rem 0.5rem;
+ border-radius: 8px;
+ background: #00b8c4;
+ max-width: fit-content;
+ font-size: 0.675rem;
+}
+.tipo-casa {
+ padding: 0rem 0.5rem;
+ border-radius: 8px;
+ background: #7060d2;
+ max-width: fit-content;
+ font-size: 0.675rem;
+}
+
+.tipo-vila {
+ padding: 0rem 0.5rem;
+ border-radius: 8px;
+ background: #19bb8a;
+ max-width: fit-content;
+ font-size: 0.675rem;
+}
+
+.card-oferta-descricao {
+ margin: 0 auto;
+ padding: 0.5rem;
+}
+
+.card-oferta-descricao p {
+ font-size: 0.975rem;
+}
+
+.list-oferta-text {
+ font-size: 0.875rem;
+}
+
+#cardOferta2 {
+ background: url(assets/imgs/cards/card-oferta-2.jpeg);
+ background-position: center;
+ background-size: cover;
+}
+
+#cardOferta3 {
+ background: url(assets/imgs/cards/card-oferta-3.jpeg);
+ background-position: center;
+ background-size: cover;
+}
+
+#cardOferta4 {
+ background: url(assets/imgs/cards/card-oferta-4.jpeg);
+ background-position: center;
+ background-size: cover;
+}
+
+#cardOferta5 {
+ background: url(assets/imgs/cards/card-oferta-5.jpeg);
+ background-position: center;
+ background-size: cover;
+}
+
+#cardOferta6 {
+ background: url(assets/imgs/cards/card-oferta-6.jpeg);
+ background-position: center;
+ background-size: cover;
 }
