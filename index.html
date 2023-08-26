@@ -184,7 +184,7 @@
   <section id="ofertas" class="bg-light">
     <h2 class="fw-bold text-center py-4 py-md-5">Nossas Ofertas</h2>
     <div class="list-card pb-5">
-      <ul class="d-flex flex-wrap gap-5 justify-content-center px-3">
+      <ul class="ul-card-list d-flex flex-wrap gap-5 justify-content-center px-3">
 
         <!-- Family Aldeia -->
         <li>
@@ -346,7 +346,7 @@
         </li>
 
         <!-- Vila das Flores -->
-        <li>
+        <li class="hide">
           <div class="card-oferta mx-auto shadow-sm justify-content-between d-flex flex-column">
             <div class="card-oferta-header d-flex flex-column justify-content-between" id="cardOferta6">
               <span class="oferta-span mt-4">TOP oferta</span>
@@ -376,7 +376,78 @@
             </div>
           </div>
         </li>
+
+        <!-- Vila das Águas -->
+        <li class="hide">
+          <div class="card-oferta mx-auto shadow-sm justify-content-between d-flex flex-column">
+            <div class="card-oferta-header d-flex flex-column justify-content-between" id="cardOferta7">
+              <span class="oferta-span mt-4">TOP oferta</span>
+              <div class="txt-card p-2">
+                <p class="fs-6 fw-bold mb-0">R$70/noite</p>
+                <p class='mb-0 fw-light tipo-vila'>Vila</p>
+              </div>
+            </div>
+            <div class="card-oferta-descricao">
+              <h2 class="fw-bold fs-2 mt-3">Vila das Águas</h2>
+              <p class="text-secondary">Uma vila luxuosa com acesso direto a uma piscina privativa, oferecendo conforto
+                e conveniência para os hóspedes.</p>
+            </div>
+            <div class="list-oferta">
+              <ul class="d-flex gap-3 px-0 pb-4  justify-content-center">
+                <li class="d-flex list-oferta-text fw-bold "><img class="me-1"
+                    src="assets/imgs/icons/cama-de-casal-black.svg" alt="Imagem cama de casal">5
+                  Quartos
+                </li>
+                <li class="list-oferta-text fw-bold "><img class="me-1" src="assets/imgs/icons/pessoa-black.svg"
+                    alt="Imagem cama de casal">9 Pessoas
+                </li>
+                <li class="list-oferta-text fw-bold "><img class="me-1" src="assets/imgs/icons/chuveiro-black.svg"
+                    alt="Imagem cama de casal">3 Banheiros
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
+
+        <!-- Casa das Montanhas -->
+        <li class="hide">
+          <div class="card-oferta mx-auto shadow-sm justify-content-between d-flex flex-column">
+            <div class="card-oferta-header d-flex flex-column justify-content-between" id="cardOferta8">
+              <span class="oferta-span mt-4">TOP oferta</span>
+              <div class="txt-card p-2">
+                <p class="fs-6 fw-bold mb-0">R$230/noite</p>
+                <p class='mb-0 fw-light tipo-casa'>Casa</p>
+              </div>
+            </div>
+            <div class="card-oferta-descricao">
+              <h2 class="fw-bold fs-2 mt-3">Casa das Montanhas</h2>
+              <p class="text-secondary">Uma casa de classe mundial, com vistas deslumbrantes para as montanhas e uma
+                ampla variedade de atividades ao ar livre.</p>
+            </div>
+            <div class="list-oferta">
+              <ul class="d-flex gap-3 px-0 pb-4  justify-content-center">
+                <li class="d-flex list-oferta-text fw-bold "><img class="me-1"
+                    src="assets/imgs/icons/cama-de-casal-black.svg" alt="Imagem cama de casal">5
+                  Quartos
+                </li>
+                <li class="list-oferta-text fw-bold "><img class="me-1" src="assets/imgs/icons/pessoa-black.svg"
+                    alt="Imagem cama de casal">9 Pessoas
+                </li>
+                <li class="list-oferta-text fw-bold "><img class="me-1" src="assets/imgs/icons/chuveiro-black.svg"
+                    alt="Imagem cama de casal">3 Banheiros
+                </li>
+              </ul>
+            </div>
+          </div>
+        </li>
       </ul>
+
+      <!-- buttons -->
+      <div class="buttons text-center">
+        <button type="button" id="btnOpen" class="btn btn-outline-secondary text-dark mt-4">Mostrar
+          Mais</button>
+        <button type="button" id="btnClose" class="btn btn-dark m-auto hide mt-4">Mostrar Menos</button>
+      </div>
     </div>
   </section>
 
@@ -384,6 +455,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
     crossorigin="anonymous"></script>
+
+  <script src="script.js"></script>
+
 </body>
 
 </html>

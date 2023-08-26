@@ -193,3 +193,42 @@ header {
  background-position: center;
  background-size: cover;
 }
+
+#cardOferta7 {
+ background: url(assets/imgs/cards/card-oferta-7.jpeg);
+ background-position: center;
+ background-size: cover;
+}
+
+#cardOferta8 {
+ background: url(assets/imgs/cards/card-oferta-8.jpeg);
+ background-position: center;
+ background-size: cover;
+}
+
+/* buttons */
+.hide {
+ display: none;
+}
+
+.open {
+ display: flex;
+ margin: 0 auto;
+}
+
+/* card */
+.active {
+ display: block;
+ animation: open 0.3s;
+}
+
+@keyframes open {
+ from {
+  top: -20px;
+  opacity: 0%;
+ }
+ to {
+  top: 0px;
+  opacity: 100%;
+ }
+}
