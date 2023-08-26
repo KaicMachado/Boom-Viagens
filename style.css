@@ -65,15 +65,15 @@ header {
 }
 
 #card1 {
- background-image: url(assets/imgs/cards/card-1.png);
+ background-image: url(assets/imgs/cards/card-1.jpg);
 }
 
 #card2 {
- background-image: url(assets/imgs/cards/card-2.png);
+ background-image: url(assets/imgs/cards/card-2.jpg);
 }
 
 #card3 {
- background-image: url(assets/imgs/cards/card-3.png);
+ background-image: url(assets/imgs/cards/card-3.jpg);
 }
 
 .txt-card {
@@ -113,7 +113,7 @@ header {
 }
 
 .card-oferta-header {
- background-image: url(assets/imgs/cards/card-oferta-1.jpeg);
+ background-image: url(assets/imgs/cards/card-oferta-1.jpg);
  background-position: center;
  width: 100%;
  height: 12.5rem;
@@ -165,43 +165,43 @@ header {
 }
 
 #cardOferta2 {
- background: url(assets/imgs/cards/card-oferta-2.jpeg);
+ background: url(assets/imgs/cards/card-oferta-2.jpg);
  background-position: center;
  background-size: cover;
 }
 
 #cardOferta3 {
- background: url(assets/imgs/cards/card-oferta-3.jpeg);
+ background: url(assets/imgs/cards/card-oferta-3.jpg);
  background-position: center;
  background-size: cover;
 }
 
 #cardOferta4 {
- background: url(assets/imgs/cards/card-oferta-4.jpeg);
+ background: url(assets/imgs/cards/card-oferta-4.jpg);
  background-position: center;
  background-size: cover;
 }
 
 #cardOferta5 {
- background: url(assets/imgs/cards/card-oferta-5.jpeg);
+ background: url(assets/imgs/cards/card-oferta-5.jpg);
  background-position: center;
  background-size: cover;
 }
 
 #cardOferta6 {
- background: url(assets/imgs/cards/card-oferta-6.jpeg);
+ background: url(assets/imgs/cards/card-oferta-6.jpg);
  background-position: center;
  background-size: cover;
 }
 
 #cardOferta7 {
- background: url(assets/imgs/cards/card-oferta-7.jpeg);
+ background: url(assets/imgs/cards/card-oferta-7.jpg);
  background-position: center;
  background-size: cover;
 }
 
 #cardOferta8 {
- background: url(assets/imgs/cards/card-oferta-8.jpeg);
+ background: url(assets/imgs/cards/card-oferta-8.jpg);
  background-position: center;
  background-size: cover;
 }
