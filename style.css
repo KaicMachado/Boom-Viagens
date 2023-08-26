@@ -87,6 +87,15 @@ header {
  border-radius: 0px 8px 8px 0px;
 }
 
-.card:hover {
- scale: 1.1;
+@media (min-width: 1000px) {
+ .card:hover {
+  scale: 1.1;
+ }
+}
+/* Vantagens */
+
+.card-vantagem {
+ width: 17rem;
+ height: 14rem;
+ background: #fff;
 }
