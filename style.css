@@ -50,3 +50,43 @@ header {
   width: 80%;
  }
 }
+
+/* cards-list */
+
+.card {
+ width: 305px;
+ height: 500px;
+ justify-content: space-between;
+ border-radius: 8px;
+ border: none;
+ transition: 0.3s;
+ cursor: pointer;
+}
+
+#card1 {
+ background-image: url(assets/imgs/cards/card-1.png);
+}
+
+#card2 {
+ background-image: url(assets/imgs/cards/card-2.png);
+}
+
+#card3 {
+ background-image: url(assets/imgs/cards/card-3.png);
+}
+
+.txt-card {
+ color: #fff;
+}
+
+.card span {
+ background-color: #f8bc00;
+ margin-top: 3.75rem;
+ padding: 0.5rem;
+ max-width: fit-content;
+ border-radius: 0px 8px 8px 0px;
+}
+
+.card:hover {
+ scale: 1.1;
+}

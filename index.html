@@ -15,10 +15,15 @@
 
 <body>
   <!-- Nav -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary py-0">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary py-0 fixed-top ">
     <div class="container-fluid d-flex  px-5 py-2">
       <div class="logo"><a class="navbar-brand" href="#"><img src="assets/imgs/Logo.svg" alt="Logo Boom"></a></div>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
         <ul class="navbar-nav py-3">
           <li class="nav-item px-2">
             <a class="nav-link" aria-current="page" href="#">Home</a>
@@ -40,11 +45,6 @@
           </li>
         </ul>
       </div>
-      <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
-        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
     </div>
   </nav>
 
@@ -99,23 +99,24 @@
     </ul>
   </header>
 
+  <!-- Seção Informações -->
   <section>
     <div class="list py-5 bg-light">
       <ul class="list-unstyled list-inline d-flex justify-content-center gap-5 flex-wrap">
         <li class="list-inline-item text-center">
-          <p class="h4">
+          <p class="h5 fw-bold">
             <span class="text-info h1 ">+280</span> <br>
             Pousadas Criadas
           </p>
         </li>
         <li class="list-inline-item text-center">
-          <p class="h4">
+          <p class="h5 fw-bold">
             <span class="text-info h1">+2000</span><br>
             Clientes Satisfeitos
           </p>
         </li>
         <li class="list-inline-item text-center">
-          <p class="h4">
+          <p class="h5 fw-bold">
             <span class="text-info h1">97%</span><br>
             Avaliações Positivas
           </p>
@@ -123,6 +124,36 @@
       </ul>
     </div>
   </section>
+
+  <!-- Seção Pousadas -->
+  <section>
+    <h2 class="fw-bold text-center py-5">Pousadas Populares</h2>
+    <div class="card-list d-flex flex-wrap justify-content-center  gap-5  mb-5">
+      <div class="card" id="card1">
+        <span>8 acomodações</span>
+        <div class="txt-card p-2">
+          <h3>Resort Gali</h3>
+          <p>A partir de R$150/noite</p>
+        </div>
+      </div>
+      <div class="card" id="card2">
+        <span>3 acomodações</span>
+        <div class="txt-card p-2">
+          <h3>Mabuli</h3>
+          <p>A partir de R$250/noite</p>
+        </div>
+      </div>
+      <div class="card" id="card3">
+        <span>4 acomodações</span>
+        <div class="txt-card p-2">
+          <h3>Gaudu Resort</h3>
+          <p>A partir de R$340/noite</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
 
 
 
