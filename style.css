@@ -232,3 +232,17 @@ header {
   opacity: 100%;
  }
 }
+
+/* Depoimentos */
+
+.card-depoimento {
+ width: 20rem;
+ height: 18rem;
+}
+
+/* @media (max-width: 1100px) {
+ .card-depoimento {
+  width: 20rem;
+  height: 22rem;
+ }
+} */
