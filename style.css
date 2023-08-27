@@ -107,7 +107,7 @@ header {
 /* cards-ofertas */
 
 .card-oferta {
- width: 22rem;
+ width: 21rem;
  height: 28.5rem;
  transition: 0.3s;
 }
@@ -240,9 +240,18 @@ header {
  height: 18rem;
 }
 
-/* @media (max-width: 1100px) {
- .card-depoimento {
-  width: 20rem;
-  height: 22rem;
- }
-} */
+/* footer */
+
+footer {
+ background: #19202c;
+}
+
+.btn-footer {
+ background: #19bb8a;
+ border: none;
+ width: 80%;
+}
+
+.copy {
+ color: #525252;
+}
